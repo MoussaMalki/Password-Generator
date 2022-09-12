@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none; /* removes the dots from the UL elements*/
+    text-decoration: none;
+   background-color: #108758;
+   color: aliceblue;
+
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10vh;
+}
+hr {
+    width: 30%;
+    margin: auto;
+    border: solid 2px black;
+    background-color: black;
+    border-radius: 20px;
+}
+#pass-section {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.test-pass, .make-pass {
+    margin: 2vh 0;
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+}
+
+.test-pass input {
+    margin-top: 2vh ;
+    width: 12rem;
+    height: 1.5rem;
+    border: solid 2px black;
+    border-radius: 5px;
+    outline: none;
+}
+.make-pass div {
+    margin: 2vh 0 ;
+    width: 12rem;
+    height: 1.5rem;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+.make-pass div p {
+    font-size: 0.8rem;
+}
+#test-btn, #gen-btn {
+    width: 5rem;
+    height: 1.4rem;
+    border: solid 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+#test-btn:hover, #gen-btn:hover {
+    border: solid 2px #FFDE00;
+    transition: 0.7s ease-in-out;
+}
+.test-pass span {
+    font-size: 0.7rem;
+   position: relative;
+   right: 6vw;
+   color: #FFDE00;
+   cursor: pointer;
+}
+.test-pass span i {
+    font-size: 0.9rem;
+    color: #FFDE00;
+    position: relative;
+    top: 2px;
+}
